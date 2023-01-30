@@ -15,7 +15,7 @@ public class camera_with_pulse : MonoBehaviour
         float p = pulse.Pulse;
         p = Math.Max(0,p - 80f);
         //Debug.Log(p / 90f * 3f);
-        return p/90f * 3f;
+        return p/90f * 2f;
         
     }
 

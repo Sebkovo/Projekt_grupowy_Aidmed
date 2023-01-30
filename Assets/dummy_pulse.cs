@@ -12,7 +12,7 @@ public class dummy_pulse : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Pulse = 90;
+        Pulse = 70;
     }
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class dummy_pulse : MonoBehaviour
 
     private void changePulse()
     {
-        Pulse = Pulse + UnityEngine.Random.Range(-3, 5);
+        Pulse = Pulse + UnityEngine.Random.Range(0, 5);
         if (Pulse > 150)
             Pulse = 150;
         if (Pulse < 60)
